@@ -326,7 +326,6 @@
 		79DD50D521346075004EF308 /* Pixellate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Pixellate.swift; path = Source/Operations/Pixellate.swift; sourceTree = "<group>"; };
 		79DD50D82134607F004EF308 /* Pixellate.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; name = Pixellate.metal; path = Source/Operations/Pixellate.metal; sourceTree = "<group>"; };
 		79E30E5E20ED6434005FA13C /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = Source/iOS/Camera.swift; sourceTree = "<group>"; };
-		79E30E6020ED64F9005FA13C /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = Source/Mac/Camera.swift; sourceTree = "<group>"; };
 		79E30E6220F10B6C005FA13C /* MetalRenderingDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MetalRenderingDevice.swift; path = Source/MetalRenderingDevice.swift; sourceTree = "<group>"; };
 		79E30E6520F10F72005FA13C /* BasicOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BasicOperation.swift; path = Source/BasicOperation.swift; sourceTree = "<group>"; };
 		79E30E6820F10F9C005FA13C /* Passthrough.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; name = Passthrough.metal; path = Source/Operations/Passthrough.metal; sourceTree = "<group>"; };
@@ -354,7 +353,6 @@
 		BC7BA28020F599DD006B5F4B /* MonochromeFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MonochromeFilter.swift; path = Source/Operations/MonochromeFilter.swift; sourceTree = "<group>"; };
 		BC7BA28320F59C8E006B5F4B /* MonochromeFilter.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; name = MonochromeFilter.metal; path = Source/Operations/MonochromeFilter.metal; sourceTree = "<group>"; };
 		BC7BA28E20F5A275006B5F4B /* PictureInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PictureInput.swift; path = Source/iOS/PictureInput.swift; sourceTree = "<group>"; };
-		BC7BA29620F6F365006B5F4B /* PictureInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PictureInput.swift; path = Source/Mac/PictureInput.swift; sourceTree = "<group>"; };
 		BC7FC40B212B2B3800B37FB6 /* OperationGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OperationGroup.swift; path = Source/OperationGroup.swift; sourceTree = "<group>"; };
 		BC9294A9210513DF006C8E93 /* SepiaToneFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SepiaToneFilter.swift; path = Source/Operations/SepiaToneFilter.swift; sourceTree = "<group>"; };
 		BCC6AB5E210E5E7900F9803A /* TextureSamplingOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextureSamplingOperation.swift; path = Source/TextureSamplingOperation.swift; sourceTree = "<group>"; };
@@ -448,8 +446,6 @@
 		79E30E5D20ED641C005FA13C /* Mac */ = {
 			isa = PBXGroup;
 			children = (
-				79E30E6020ED64F9005FA13C /* Camera.swift */,
-				BC7BA29620F6F365006B5F4B /* PictureInput.swift */,
 			);
 			name = Mac;
 			sourceTree = "<group>";
