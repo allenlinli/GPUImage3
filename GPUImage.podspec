@@ -22,13 +22,13 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/Retso Huang/GPUImage'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'BSD', :file => 'LICENSE' }
   s.author           = { 'Retso Huang' => 'retsohuang@gmail.com' }
   s.source           = { :git => 'https://github.com/Retso Huang/GPUImage.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.11'
   s.swift_version = '4.0'
+  s.private_header_files = 'framework/Source/Operations/*.h'
   s.source_files = [
     'framework/Source/*.swift',
     'framework/Source/Operations/**/*'
