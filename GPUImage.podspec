@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/Retso Huang/GPUImage'
-  s.license          = { :type => 'BSD', :file => 'LICENSE' }
+  s.license          = { :type => 'BSD' }
   s.author           = { 'Retso Huang' => 'retsohuang@gmail.com' }
   s.source           = { :git => 'https://github.com/allenlinli/GPUImage.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
