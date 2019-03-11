@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "GPUImage3"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of GPUImage3. aaa"
 
   s.description  = "Try to import it in a ObjC project"
