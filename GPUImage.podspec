@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GPUImage'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of GPUImage.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Retso Huang/GPUImage'
   s.license          = { :type => 'BSD' }
   s.author           = { 'Retso Huang' => 'retsohuang@gmail.com' }
-  s.source           = { :git => 'https://github.com/allenlinli/GPUImage.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/allenlinli/GPUImage.git', :tag => "#{s.version}" }
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.11'
   s.swift_version = '4.0'
